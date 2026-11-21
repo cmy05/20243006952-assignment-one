@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Part C: button selector.
+    Green (brand colour) in the default state, light green while the user is
+    pressing the button. Using a state-list drawable means the same background
+    is shared by all four ImageButtons instead of duplicating colours in XML.
+-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@color/light_green" />
+    <item android:drawable="@color/green" />
+</selector>
