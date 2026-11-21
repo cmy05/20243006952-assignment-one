@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        All margins, paddings and font sizes live here so that no layout file
+        contains magic numbers. Everything else in the layouts is expressed
+        with layout_weight / match_parent / wrap_content so the UI adapts to
+        any screen size. Only the banner title is allowed a fixed size (40sp),
+        as required by the assignment specification.
+    -->
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+
+    <dimen name="text_size_topic_label">16sp</dimen>
+    <dimen name="text_size_detail_banner">30sp</dimen>
+    <dimen name="text_size_detail_heading">20sp</dimen>
+    <dimen name="text_size_detail_body">15sp</dimen>
+</resources>
