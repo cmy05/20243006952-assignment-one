@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand colours required by Part C of the assignment. -->
+    <color name="green">#FF1B5E20</color>
+    <color name="light_green">#FF66BB6A</color>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+
+    <!-- Text and surface colours. -->
+    <color name="text_primary">#FF212121</color>
+    <color name="screen_background">#FFF5F5F5</color>
+
+    <!-- Semi-transparent scrim drawn over the photos so that white text
+         stays readable on top of any part of the image. -->
+    <color name="banner_scrim">#59000000</color>
+
+    <!-- Adaptive launcher icon background layer. -->
+    <color name="ic_launcher_background">#FFFFFFFF</color>
+</resources>

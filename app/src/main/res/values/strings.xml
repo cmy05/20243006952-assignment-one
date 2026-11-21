@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CampusLife</string>
+
+    <!-- Main screen -->
+    <string name="banner_title">Welcome to CampusLife - Your Pocket Guide to University of Waikato</string>
+    <string name="label_facilities">Facilities</string>
+    <string name="label_events">Events</string>
+    <string name="label_clubs">Clubs</string>
+    <string name="label_support">Support</string>
+
+    <!-- Toast shown by the Part E click handlers -->
+    <string name="toast_topic_clicked">%1$s clicked</string>
+
+    <!-- Detail screen placeholders (replaced at runtime in Part H) -->
+    <string name="detail_placeholder_title">This is a title</string>
+    <string name="detail_placeholder_content">This is content</string>
+
+    <!-- Content descriptions for accessibility -->
+    <string name="main_banner_description">University of Waikato campus</string>
+    <string name="detail_banner_description">Header photo of the selected topic</string>
+    <string name="topic_icon_description">Icon for the selected topic</string>
+</resources>

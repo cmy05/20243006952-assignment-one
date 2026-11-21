@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Light theme with no ActionBar: both screens draw their own header
+        image, so an ActionBar would only eat vertical space.
+    -->
+    <style name="Base.Theme.AssignmentOne" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowBackground">@color/screen_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.AssignmentOne" parent="Base.Theme.AssignmentOne" />
+</resources>
